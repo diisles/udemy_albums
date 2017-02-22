@@ -15,7 +15,7 @@ const App = () => (
 
 
 // Render it to the device using Exponent
-Exponent.registerRootComponent('albums', () => App);
+Exponent.registerRootComponent(App);
 
 
 // Used to Render to device when Not using Exponent.  AppRegistry.registerComponent('albums', () => App);
